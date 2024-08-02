@@ -13,7 +13,7 @@ public class Week4Project {
 	
 		
 		
-	//a. Programmatically subtract the value of the first element in the array from the value in the last element of the array (i.e. 			do not use ages[7] in your code). Print the result to the console.  
+	//a. Programmatically subtract the value of the first element in the array from the value in the last element of the array (i.e. do not use ages[7] in your code). Print the result to the console.  
 	/*
 	 * I subtracted 1 from the length of the array to get the last element and used index 0 to get the first element.
 	 */
@@ -35,7 +35,7 @@ public class Week4Project {
 	
 		
 	
-	//ii. Repeat the subtraction from Step 1.a. (Programmatically subtract the value of the first element in the new array ages2 from the 		last element of ages2). 
+	//ii. Repeat the subtraction from Step 1.a. (Programmatically subtract the value of the first element in the new array ages2 from the last element of ages2). 
 
 		int result2 = ages2[9-1] - ages2[0];
 		System.out.println(result2);
@@ -92,7 +92,7 @@ public class Week4Project {
 		
 		
 	
-		//b. Use a loop to iterate through the array again and concatenate all the names together, separated by spaces, and print the 				result to the console.
+		//b. Use a loop to iterate through the array again and concatenate all the names together, separated by spaces, and print the result to the console.
 		/*
 		 * 
 		 *  I used an enhanced for loop to iterate over the names array and concatenate the names together.
@@ -120,7 +120,7 @@ public class Week4Project {
 	
 		
 		
-	//5. Create a new array of int called nameLengths. Write a loop to iterate over the previously created names array and add the 		length of each name to the nameLengths array.
+	//5. Create a new array of int called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
 		
 		int[] nameLengths = new int[6];
 			for (int i = 0; i < names.length; i++) {
@@ -132,7 +132,7 @@ public class Week4Project {
 	
 			
 			
-	//6. Write a loop to iterate over the nameLengths array and calculate the sum of all the elements in the array. Print the result to 			the console.
+	//6. Write a loop to iterate over the nameLengths array and calculate the sum of all the elements in the array. Print the result to the console.
 
 			int sum2 = 0;
 			for (int i = 0; i < nameLengths.length; i++) {
@@ -143,14 +143,14 @@ public class Week4Project {
 	
 			
 			
-	//7. Write a method that takes a String, word, and an int, n, as arguments and returns the word concatenated to itself n number of 			times. (i.e. if I pass in “Hello” and 3, I expect the method to return “HelloHelloHello”).
+	//7. Write a method that takes a String, word, and an int, n, as arguments and returns the word concatenated to itself n number of times. (i.e. if I pass in “Hello” and 3, I expect the method to return “HelloHelloHello”).
 
 		System.out.println(repeatWord("turtle", 7));
 		
 	
 		
 		
-	//8. Write a method that takes two Strings, firstName and lastName, and returns a full name (the full name should be the first and the 		last name as a String separated by a space).
+	//8. Write a method that takes two Strings, firstName and lastName, and returns a full name (the full name should be the first and the last name as a String separated by a space).
 
 		System.out.println(createName("Alex", "Freeman"));
 		
@@ -173,7 +173,7 @@ public class Week4Project {
 	
 		
 		
-	//11. Write a method that takes two arrays of double and returns true if the average of the elements in the first array is greater 			than the average of the elements in the second array.
+	//11. Write a method that takes two arrays of double and returns true if the average of the elements in the first array is greater than the average of the elements in the second array.
 
 		double[] arrayA = {33, 8, 12, 4, 10};
 		double[] array2 = {24, 13, 18, 3, 6};
@@ -183,7 +183,7 @@ public class Week4Project {
 	
 		
 		
-	//12. Write a method called willBuyDrink that takes a boolean isHotOutside, and a double moneyInPocket, and returns true if it is hot 		outside and if moneyInPocket is greater than 10.50.
+	//12. Write a method called willBuyDrink that takes a boolean isHotOutside, and a double moneyInPocket, and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
 
 		boolean isHotOutside = false;
 		double moneyInPocket = 11.00;
@@ -199,7 +199,7 @@ public class Week4Project {
 		double SHBG = 53;
 		System.out.println(calculateFreeTestosterone(testosteroneTotal, SHBG));
 		
-		// I work in a hospital laboratory and we have do this manual calculation almost every day in chemistry because the equation is 				not set up to calculate on its own.
+		// I work in a hospital laboratory and we have do this manual calculation almost every day in chemistry because the equation is not set up to calculate on its own.
 		
 	
 		
